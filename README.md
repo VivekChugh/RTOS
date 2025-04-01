@@ -1,3 +1,5 @@
+Last evening recruiter asked me to share few points he can use to convince you to get me second round of interview. I thought, what's more convincing than a functioning code. So I wrote few lines to display my proficiency in writing low level IPC code (posix/non-posix based RTOS). Hope it appeals you.
+
 **FreeRTOS-sharedmem.c:**
 - code that displays how two FreeRTOS specific tasks communicate (exchange data) with shared memory.
 - Since both tasks are part of the same process address space, shared memory is allocated in the global address space of the process and it can be synchronized by binary semaphore (mutex).  
